@@ -1,0 +1,27 @@
+.App {
+  margin: 50px;
+  color:antiquewhite;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.Container {
+  /* position: absolute; */
+  padding: 10px;
+  border: 10mm ridge rgba(61, 61, 52, 0.6);
+  background-color: #282c34;
+  border-radius: 25px;
+  /* transform: translate(50% ,50%); */
+}
+
+.blink{
+  animation: blink 1s steps(1, end) infinite;
+}
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
