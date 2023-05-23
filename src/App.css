@@ -10,6 +10,7 @@
   font-size: small;
 }
 .App {
+  background-color: blanchedalmond;
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
