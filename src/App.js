@@ -60,7 +60,7 @@ function App() {
         </h1>
         <h1>
           <span>Altitude: </span>
-          {time <= 0 ? <CountUp duration={120} end={100} /> : ' - '}<span> km</span>{/*28.5°*/}
+          {time <= 0 ? <CountUp duration={120} end={120} /> : ' - '}<span> km</span>{/*28.5°*/}
         </h1>
         <h1>
           <span>Fuel Burn: </span>
