@@ -17,6 +17,10 @@ const easingFn = (t, b, c, d) => {
   return b + c * (tc + -.00000001 * ts + .3 * t);
 };
 
+const gitHandle = () => {
+  window.open("https://github.com/griimgir/JPL-project");
+};
+
 function App() {
   const [Time, setTime] = useState('10:00');
   const [thisDate, setDate] = useState(new Date());
@@ -27,7 +31,15 @@ function App() {
   });
 
   return (
+    //1970s terminal inspired mission control console interface
     <div className="App">
+      <div>
+      <div className='head'>
+      <h1>>Created by: Alberc Ej Salcedo</h1>
+      </div>
+      <div className='head'>
+      <h1>></h1><h1 onClick={gitHandle}>Project Github Repo</h1><h1 className='blink2'>|</h1>
+      </div>
       <div className="Container">
           <div><h1>>start ./mission-control-sim<span className='blink'>|</span></h1></div>
           <br></br>
@@ -54,6 +66,7 @@ function App() {
           <span>Fuel Burn: </span>
           {time <= 0 ? <CountUp duration={120} end={3200} /> : ' - '}<span> lbs/s</span>
         </h1>
+      </div>
       </div>
     </div>
   );

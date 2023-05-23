@@ -1,15 +1,26 @@
-.App {
-  margin: 50px;
-  color:antiquewhite;
-  text-align: center;
+.head {
+  color: black;
   font-family: 'VT323', monospace;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+}
+.title {
+  color: black;
+  font-family: 'VT323', monospace;
+  font-size: small;
+}
+.App {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
   justify-content: center;
 }
 .Container {
   /* position: absolute; */
+  margin: 20px;
+  color:antiquewhite;
+  text-align: center;
+  font-family: 'VT323', monospace;
   padding: 10px;
   border: 10mm ridge rgba(61, 61, 52, 0.6);
   background-color: #282c34;
@@ -19,6 +30,15 @@
 
 .blink{
   animation: blink 1s steps(1, end) infinite;
+}
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.blink2{
+  animation: blink 1.3s steps(1, end) infinite;
 }
 @keyframes blink{
   0%{opacity: 1;}
