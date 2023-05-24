@@ -11,7 +11,7 @@ A front-end project that simulates a 1970s inspired interface of a rocket launch
 
 ## Features
 
-- Drop menu that fetcches data about rockets and launchpads through SpaceX-API
+- Drop menu that fetches data about rockets and launchpads through SpaceX-API
 ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/screenshots/Screenshot%20from%202023-05-23%2019-26-40.png?raw=true)
 
 ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/screenshots/Screenshot%20from%202023-05-23%2019-26-53.png?raw=true)
@@ -20,7 +20,7 @@ A front-end project that simulates a 1970s inspired interface of a rocket launch
     - Counting up uses an Easing function that allows an effect which slows the count at the end of the counter when it reaches closer to the maximum duration
     ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/screenshots/Screenshot%20from%202023-05-23%2019-21-01.png?raw=true)
 
-    - The simulation only runs after the start sequence completes it's count down (demo 3 seconds, and for submitted project 300 seconds or 5 minutes). This is achieved by a simple if else statement. Only when the condition of time >= 0 is true, lift off is achieved.
+    - The simulation only runs after the start sequence completes it's count down (demo 3 seconds, and for submitted project 300 seconds or 5 minutes). This is achieved by a simple if else statement. Only when the condition of time > 0 is false, lift off is achieved.
     ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/screenshots/Screenshot%20from%202023-05-23%2019-25-55.png?raw=true)
 - Timer for demo is 3 seconds however the project submitted through email has the correct 300 seconds/5 minute criteria that was asked. It is completley customizable as shown below. Modify initialTime to desired launch countdown.
     ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/screenshots/initialTime.png?raw=true)
@@ -37,7 +37,7 @@ Pulling the repo
 
 To get started you will need NPM and Node.js: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-to install Dependencies required for this front-end project run npm command to install dependencies in `package.json`
+To install Dependencies required for this front-end project run npm command to install dependencies in `package.json`
 
 ```
     npm install
