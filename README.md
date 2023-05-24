@@ -4,9 +4,7 @@
 A front-end project that simulates a 1970s inspired interface of a rocket launch. Created by Alberc Ej Salcedo
 
 
-## Demo (3 second launch to showcase the simulation)
-
-https://www.asalcedo.com/
+## [Link to Demo ](https://www.asalcedo.com/)(3 second launch to showcase the simulation)
 
 ![App Screenshot](https://github.com/griimgir/JPL-project/blob/main/preview.gif?raw=true)
 
