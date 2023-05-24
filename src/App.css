@@ -1,4 +1,5 @@
 .head {
+  padding-inline-start: 100px;
   color: black;
   font-family: 'VT323', monospace;
   display: flex;
@@ -16,13 +17,17 @@
   /* align-items: center; */
   justify-content: center;
 }
+.Space {
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+}
 .Container {
   /* position: absolute; */
   margin: 20px;
   color:antiquewhite;
   text-align: center;
   font-family: 'VT323', monospace;
-  padding: 10px;
+  padding: 0px;
   border: 10mm ridge rgba(61, 61, 52, 0.6);
   background-color: #282c34;
   border-radius: 25px;
@@ -45,4 +50,14 @@
   0%{opacity: 1;}
   50%{opacity: 0;}
   100%{opacity: 1;}
+}
+.buttonRadius {
+  background-color: black;
+  border-style: outset;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 40%;
+  margin: 4px 70px;
 }
