@@ -11,6 +11,8 @@ import DatePicker from 'react-date-picker';
 import 'react-date-picker/dist/DatePicker.css';
 import { useTimer } from 'use-timer';
 
+//Please Read ReadMe.md for documentation on project
+
 const easingFn = (t, b, c, d) => {
   const ts = (t /= d) * t;
   const tc = ts * t;
